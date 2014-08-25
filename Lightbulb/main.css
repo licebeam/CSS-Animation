@@ -1,0 +1,273 @@
+html{
+	background-color: black;
+}
+
+.contain{
+	-webkit-animation: container 2s linear infinite;
+	animation: container 2s linear infinite;
+	top:50%;
+	left:50%;
+	height:100px;
+	width:100px;
+	position: relative;
+	border-radius:0%;
+	background-color: black;
+}
+.contain2{/*holdsbase*/
+	top:50%;
+	left:20%;
+	height:50px;
+	width:60px;
+	position: absolute;
+	background-color: black;
+}
+.contain3{ /*holds light*/
+	top:0%;
+	left:20%;
+	height:50px;
+	width:60px;
+	position: absolute;
+	background-color: black;
+}
+
+.base1{
+	top:0%;
+	left:8%;
+	height:30px;
+	width:50px;
+	border-radius: 20px 20px 90px 90px;
+	position: absolute;
+	background-color: #A6A497;
+}
+.base2{
+	top:55%;
+	left:33%;
+	height:16px;
+	width:20px;
+	border-radius: 0 0px 90px 90px;
+	position: absolute;
+	background-color: #A6A497;
+}
+.bar{
+	top:55%;
+	left:33%;
+	height:4px;
+	width:20px;
+	
+	position: absolute;
+	background-color: #78766D;
+}
+.bar2{
+	-webkit-animation: bulb1 5s linear infinite;
+	animation: bulb1 5s linear infinite;
+	top:0%;
+	left:8%;
+	height:4px;
+	width:50px;
+	border-radius: 60px / 45px;
+	position: absolute;
+	background-color: #78766D;
+}
+.eye1{
+	-webkit-animation: eyes 3s linear infinite;
+	animation: eyes 3s linear infinite;
+	top:12%;
+	left:33%;
+	width:8px;
+	height:8px;
+	background-color: #242424;
+    border-radius: 100%;
+	position: absolute;
+}
+.eye2{
+	-webkit-animation: eyes 3s linear infinite;
+	animation: eyes 3s linear infinite;
+	top:12%;
+	left:66%;
+	width:8px;
+	height:8px;
+	background-color: #242424;
+    border-radius: 100%;
+	position: absolute;
+}
+.mouth{
+	top:30%;
+	left:50%;
+	width: 10px;
+	height: 8px;
+    border-radius: 0 0 90px 90px;
+    background-color:#242424;
+	position: absolute;
+}
+.bulb1{
+	-webkit-animation: bulb1 5s linear infinite;
+	animation: bulb1 5s linear infinite;
+	top:60%;
+	left:20%;
+	height:20px;
+	width:10px;
+	border-radius: 90px 90px 0 0;
+	position: absolute;
+	background-color:#78766D;
+}
+.bulb2{
+	-webkit-animation: bulb1 5s linear infinite;
+	animation: bulb1 5s linear infinite;
+	top:60%;
+	left:62%;
+	height:20px;
+	width:10px;
+	border-radius: 90px 90px 0 0;
+	position: absolute;
+	background-color: #99978B;
+}
+.bulb3{
+	-webkit-animation: bulb2 5s linear infinite;
+	animation: bulb2 5s linear infinite;
+	top:30%;
+	left:45%;
+	height:30px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color: #78766D;
+	-webkit-transform:rotate(-60deg);
+	transform:rotate(-60deg);
+}
+.bulb4{
+	-webkit-animation: bulb2 5s linear infinite;
+	animation: bulb2 5s linear infinite;
+	top:22%;
+	left:36%;
+	height:38px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color:#99978B;
+	-webkit-transform:rotate(60deg);
+	transform:rotate(60deg);
+}
+.bulb5{
+	-webkit-animation: bulb3 5s linear infinite;
+	animation: bulb3 5s linear infinite;
+	top:-4%;
+	left:36%;
+	height:38px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color: #99978B;
+	-webkit-transform:rotate(60deg);
+	transform:rotate(60deg);
+}
+.bulb6{
+	-webkit-animation: bulb3 5s linear infinite;
+	animation: bulb3 5s linear infinite;
+	top:-4%;
+	left:28%;
+	height:20px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color: #99978B;
+	-webkit-transform:rotate(60deg);
+	transform:rotate(60deg);
+}
+.bulb7{
+	-webkit-animation: bulb4 5s linear infinite;
+	animation: bulb4 5s linear infinite;
+	top:2%;
+	left:44%;
+	height:34px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color: #78766D;
+	-webkit-transform:rotate(-60deg);
+	transform:rotate(-60deg);
+}
+.bulb8{
+	-webkit-animation: bulb4 5s linear infinite;
+	animation: bulb4 5s linear infinite;
+	top:-6%;
+	left:48%;
+	height:20px;
+	width:10px;
+	border-radius: 40px / 45px;
+	position: absolute;
+	background-color: #78766D;
+	-webkit-transform:rotate(-60deg);
+	transform:rotate(-60deg);
+}
+@-webkit-keyframes bulb1{
+	30%{background-color: #FFA175}
+	40%{background-color: #FFE2A8}
+	50%{background-color: #FFFFDB}
+}
+@-webkit-keyframes bulb2{
+	40%{background-color: #FFA175}
+	50%{background-color: #FFE2A8}
+	60%{background-color: #FFFFDB}
+}
+@-webkit-keyframes bulb3{
+	50%{background-color: #FFA175}
+	60%{background-color: #FFE2A8}
+	70%{background-color: #FFFFDB}
+
+}
+@-webkit-keyframes bulb4{
+	60%{background-color: #FFA175}
+	70%{background-color: #FFE2A8}
+	80%{background-color: #FFFFDB}
+}
+@-webkit-keyframes container{
+	25%{-webkit-transform:rotate(-10deg);}
+	50%{-webkit-transform:rotate(10deg);}
+	75%{-webkit-transform:rotate(0deg);}
+	100%{-webkit-transform:rotate(0deg);}
+}
+@-webkit-keyframes eyes{
+	25%{width:8px;height:8px}
+	50%{width:8px;height:8px}
+	75%{width:8px;height:8px}
+	98%{width:8px;height:8px}
+	99%{width:8px;height:2px}
+	100%{width:8px;height:8px}
+	
+}
+@keyframes bulb1{
+	30%{background-color: #FFA175}
+	40%{background-color: #FFE2A8}
+	50%{background-color: #FFFFDB}
+}
+@keyframes bulb2{
+	40%{background-color: #FFA175}
+	50%{background-color: #FFE2A8}
+	60%{background-color: #FFFFDB}
+}
+@keyframes bulb3{
+	50%{background-color: #FFA175}
+	60%{background-color: #FFE2A8}
+	70%{background-color: #FFFFDB}
+
+}
+@keyframes bulb4{
+	60%{background-color: #FFA175}
+	70%{background-color: #FFE2A8}
+	80%{background-color: #FFFFDB}
+}
+@keyframes container{
+	25%{transform:rotate(-10deg);}
+	50%{transform:rotate(10deg);}
+	75%{transform:rotate(0deg);}
+	100%{transform:rotate(0deg);}
+}
+@keyframes eyes{
+	25%{width:8px;height:8px}
+	50%{width:8px;height:8px}
+	75%{width:8px;height:8px}
+	98%{width:8px;height:8px}
+	99%{width:8px;height:2px}
+	100%{width:8px;height:8px}
+	
+}
